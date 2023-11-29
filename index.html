@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 
-<body>
+<body onload="onInit()">
 
   <heder class="main-header">
     <div class="logo">MEME generator</div>
@@ -41,8 +41,8 @@
   </section>
 
   <section class="gallery">
-    <img src="images/meme-imgs (square)/1.jpg">
-    <img src="images/meme-imgs (square)/2.jpg">
+    <img src="images/meme-imgs (square)/1.jpg" onclick="renderMeme(this)">
+    <img src=" images/meme-imgs (square)/2.jpg" onclick="renderMeme(this)">
 
   </section>
 
