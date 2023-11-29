@@ -5,9 +5,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Uri's Meme Generator - 1</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
+
+  <heder class="main-header">
+    <div class="logo">MEME generator</div>
+    <!-- hamburger menu button -->
+    <nav class="page-nav">
+      <ul>
+        <li><button>Gallery</button></li>
+        <li><button>About</button></li>
+      </ul>
+    </nav>
+  </heder>
+
+  <section class="gallery">
+
+  </section>
+
+  <section class="editor">
+    <h2 class="meme-title">New meme</h2>
+    <main class="canvas-container">
+      <canvas width="400" height="400"></canvas>
+    </main>
+    <aside class="canvas-tools">
+      <button>1</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5</button>
+      <button>6</button>
+    </aside>
+  </section>
+
+  <section class="gallery">
+    <img src="images/meme-imgs (square)/1.jpg">
+    <img src="images/meme-imgs (square)/2.jpg">
+
+  </section>
+
+  <footer class="main-footer">
+    <p>created by Uri Shilo - Coding Academy - Sprint 2</p>
+  </footer>
+
+  <script src="js/services/utils.service.js"></script>
+  <script src="js/services/meme-generator.service.js"></script>
+  <script src="js/meme-generator.controller.js"></script>
 
 </body>
 
